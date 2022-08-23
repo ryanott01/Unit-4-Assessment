@@ -1,5 +1,4 @@
 
-let cookieCount = 0
 
 module.exports = {
 
@@ -18,14 +17,4 @@ module.exports = {
         let randomFortune = fortunes[randomIndex];
   
     res.status(200).send(randomFortune);
-    },
-    putCookie: (req, res) => {
-        
-        cookieCount++;
-        res(200).send(cookieCount)
-        
-
-    
-    },
-
-}
+    }}
