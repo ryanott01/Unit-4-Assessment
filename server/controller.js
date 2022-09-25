@@ -25,7 +25,8 @@ module.exports = {
     },
     deleteHatedItem: (req, res) => {
         const { index } = req.params;
-        console.log(req)
+        console.log(index) //cannot figure out why it is showing undefined it console on front end it logs the number as it should
+                           //I will stop by queue and for this on tuesday
         hatedItems.splice(index, 1)
         console.log(hatedItems)
     },
