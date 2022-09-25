@@ -1,0 +1,21 @@
+#fortuneButton {
+    background-image: url("resources/kisspng-fortune-cookie-biscuits-chocolate-chip-cookie-chin-5aeae8a5f268c1.5657083415253444219929.png");
+    background-color: #cccccc00;
+    Height: 400px;
+    width: 800px;
+    background-size: cover;
+    border-width: 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#complimentButton {
+    background-image: url("resources/5616.jpg.webp");
+    background-color: #cccccc00;
+    Height: 400px;
+    width: 800px;
+    background-size: cover;
+    border-width: 0;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
