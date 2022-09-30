@@ -19,8 +19,8 @@ const {
 app.get("/api/compliment", getCompliment);
 app.get("/api/fortune", getFortune);
 app.post("/api/hated", addHatedItem);
-app.delete("/api/hated:i", deleteHatedItem);
+app.delete("/api/hated/:index", deleteHatedItem);
 app.post("/api/loved", addLovedItem);
-app.delete("/api/loved:i", deleteLovedItem);
+app.delete("/api/loved/:index", deleteLovedItem);
 
 app.listen(4000, () => console.log("Server running on 4000"));

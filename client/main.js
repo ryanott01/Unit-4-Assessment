@@ -24,7 +24,7 @@ const getFortune = () => {
 
  function deleteHated(i){
     console.log(i)
-     axios.delete(`http://localhost:4000/api/hated:${i}`).then((res) => {console.log(res)}
+     axios.delete(`http://localhost:4000/api/hated/${i}`).then((res) => {console.log(res)}
  )}
 const postHatedItem = (e) => {
     e.preventDefault();
@@ -45,7 +45,7 @@ const postHatedItem = (e) => {
     };
     
     function deleteLoved(i){
-        axios.delete(`http://localhost:4000/api/loved:${i}`).then((res) => {console.log(res)}
+        axios.delete(`http://localhost:4000/api/loved/${i}`).then((res) => {console.log(res)}
     )}
     const postLovedItem = (e) => {
         e.preventDefault();
